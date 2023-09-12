@@ -6,6 +6,11 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
+  background-color: rgb(133, 156, 194);
   font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(57, 57, 63);
+  text-decoration: underline;
 }
