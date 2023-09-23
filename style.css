@@ -86,3 +86,11 @@ h1 {
 }
 
 
+.scale {
+  animation: scale-anim 1s both ease-in-out infinite alternate;
+}
+
+@keyframes scale-anim {
+  from {transform: scale(1)}
+  to {transform: scale(0.9)}
+}
