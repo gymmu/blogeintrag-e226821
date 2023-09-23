@@ -24,7 +24,15 @@ h1 {
   box-shadow: 3px 1px 3px 2px rgb(50, 50, 52) ;
 }
 
-
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+}
 
 
 /* Zentriere alle Elemente in dem Container, setze die Höhe und die Breite fest. */
