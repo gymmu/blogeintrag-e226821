@@ -94,3 +94,11 @@ h1 {
   from {transform: scale(1)}
   to {transform: scale(0.9)}
 }
+
+
+.spread {
+  transition: all 1s ease-in-out;
+}
+.spread:hover {
+  letter-spacing: 1rem;
+}
